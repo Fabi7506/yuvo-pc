@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuvo — Privacy Policy / Politique de confidentialité</title>
+<meta name="description" content="Yuvo Privacy Policy — your data, your control.">
+<style>
+  :root{
+    --paper:#ffffff;
+    --ink:#17171c;
+    --muted:#6b6b76;
+    --line:#e7e7ec;
+    --accent:#5546ff;
+    --accent-soft:#efeefe;
+    --maxw:720px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* Header */
+  header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
+  .bar{max-width:var(--maxw);margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;align-items:baseline;gap:10px;font-weight:700;letter-spacing:-0.02em;font-size:21px}
+  .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);display:inline-block;transform:translateY(-1px)}
+  .toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:#fafafb}
+  .toggle button{
+    border:0;background:transparent;cursor:pointer;font:inherit;font-size:13px;font-weight:600;
+    color:var(--muted);padding:5px 13px;border-radius:999px;line-height:1;transition:.15s;
+  }
+  .toggle button[aria-pressed="true"]{background:var(--accent);color:#fff}
+  .toggle button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  /* Hero */
+  .hero{padding:64px 0 8px}
+  .eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  h1{font-size:clamp(30px,5vw,42px);line-height:1.12;letter-spacing:-0.03em;margin:14px 0 0}
+  .updated{color:var(--muted);font-size:14px;margin-top:18px}
+
+  /* Body */
+  main{padding:8px 0 80px}
+  h2{font-size:20px;letter-spacing:-0.01em;margin:46px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+  h3{font-size:16px;margin:24px 0 6px;color:var(--ink)}
+  p{margin:12px 0}
+  ul{margin:12px 0;padding-left:22px}
+  li{margin:7px 0}
+  a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+  strong{font-weight:650}
+  .lead{font-size:19px;color:var(--ink)}
+  .ph{background:var(--accent-soft);border-radius:5px;padding:1px 6px;font-weight:600;color:#3a2fb0;white-space:nowrap}
+  .note{background:#fbfbfd;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:14px 16px;font-size:15px;color:var(--muted);margin:24px 0}
+
+  footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}
+
+  [data-lang]{display:none}
+  html[data-active="en"] [data-lang="en"]{display:revert}
+  html[data-active="fr"] [data-lang="fr"]{display:revert}
+
+  @media (max-width:480px){
+    body{font-size:16px}
+    .hero{padding:44px 0 4px}
+    .bar{padding:14px 20px}
+    .wrap{padding:0 20px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">Yuvo<span class="dot" aria-hidden="true"></span></div>
+    <div class="toggle" role="group" aria-label="Language / Langue">
+      <button id="btn-en" aria-pressed="true" onclick="setLang('en')">EN</button>
+      <button id="btn-fr" aria-pressed="false" onclick="setLang('fr')">FR</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= ENGLISH ================= -->
+<div data-lang="en">
+  <section class="hero"><div class="wrap">
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>Your data, your control.</h1>
+    <p class="updated">Last updated: <span class="ph">[DD Month YYYY]</span></p>
+  </div></section>
+
+  <main><div class="wrap">
+    <p class="lead">This Policy explains how the Yuvo application (the “App”) handles information about you.</p>
+
+    <h2>1. Data controller</h2>
+    <p>The data controller is <span class="ph">[Publisher legal name]</span>, <span class="ph">[legal form]</span>, <span class="ph">[company number where applicable]</span>, with its registered office / address at <span class="ph">[full address]</span>.</p>
+    <p>Contact: <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a></p>
+
+    <h2>2. Principle: Yuvo is a player</h2>
+    <p>Yuvo is a utility app that plays <strong>your</strong> playlists. Yuvo does not provide, host or distribute any content, and has no means of accessing the sources you configure. You are responsible for your content.</p>
+    <p>Yuvo is built on <strong>data minimisation</strong>: we collect only what is necessary for the service you choose to use.</p>
+
+    <h2>3. Data processed and purposes</h2>
+    <h3>a) Account data (where applicable)</h3>
+    <p>If you create an account or sign in via Apple or Google, we may process your email address, authentication status, security settings, linked subscription identifiers, and your optional marketing consent (yes/no). Marketing consent is separate from accepting the Terms and may be withdrawn at any time.</p>
+    <h3>b) Data stored in your iCloud</h3>
+    <p>Your preferences and progress (playlists, favourites, settings) may be stored in your personal iCloud account via CloudKit. This data is accessible only by you; we have no access to it. Its management is governed by Apple’s iCloud privacy policy.</p>
+    <h3>c) Usage analytics and improvement</h3>
+    <p>We may use a hashed iCloud identifier (not linked to your identity) and general device information (device type, OS version, language) to analyse usage anonymously and improve the App. No identity data (email, name, phone) is linked to this measurement.</p>
+    <h3>d) Crash reports (optional)</h3>
+    <p>Bug reporting is optional. A log file may contain technical information about the streams tested and the associated errors, solely for fixing issues.</p>
+    <h3>e) Advertising (where applicable)</h3>
+    <p>Yuvo may offer ad-supported free access when we enable it. Paying subscribers and users with an ad-free entitlement do not see advertisements. When advertising is enabled:</p>
+    <ul>
+      <li>we use <strong>Google AdMob</strong> and <strong>Google User Messaging Platform (UMP)</strong> to request, store and apply your consent choices where required;</li>
+      <li>on Apple platforms, <strong>App Tracking Transparency (ATT)</strong> permission may be requested before any access to the IDFA (advertising identifier). If you do not allow tracking, or if consent is unavailable, ads may be contextual, non-personalised or limited;</li>
+      <li>Google and its partners may receive technical data (device, app, network, approximate location, diagnostics, consent status, ad interactions, advertising identifier) only where permitted. If required ad consent is refused or unavailable, ad-supported access is disabled and standard access is restored.</li>
+    </ul>
+    <p>You can review or change your advertising consent in Yuvo’s settings, and the ATT permission in your iOS/tvOS settings.</p>
+
+    <h2>4. Legal bases (GDPR)</h2>
+    <ul>
+      <li><strong>Performance of a contract</strong> (Art. 6(1)(b)): providing the App and account features.</li>
+      <li><strong>Consent</strong> (Art. 6(1)(a)): personalised advertising, tracking, marketing communications. Withdrawable at any time.</li>
+      <li><strong>Legitimate interest</strong> (Art. 6(1)(f)): security, fraud prevention, anonymous usage measurement and service improvement.</li>
+    </ul>
+
+    <h2>5. Recipients and processors</h2>
+    <p>We do not sell your data. It may be processed by providers acting on our behalf or by platforms necessary to operate the App, in particular: Apple (distribution, iCloud/CloudKit, purchases), Google (AdMob, UMP, analytics), <span class="ph">[where applicable: analytics provider / Supabase / backend host]</span>. These third parties apply their own privacy policies.</p>
+
+    <h2>6. International transfers</h2>
+    <p>Some providers (notably Apple and Google) may process data outside the European Economic Area. Such transfers are governed by appropriate safeguards (standard contractual clauses or adequacy decisions), in accordance with the GDPR.</p>
+
+    <h2>7. Retention</h2>
+    <p>We retain account data for as long as your account is active, then delete or anonymise it within a reasonable period, unless a legal retention obligation applies. Crash reports and technical data are kept temporarily, for as long as needed to resolve issues.</p>
+
+    <h2>8. Security</h2>
+    <p>We implement reasonable technical and organisational measures (authentication, access control) to protect data against unauthorised access, loss or misuse.</p>
+
+    <h2>9. Your rights</h2>
+    <p>Under the GDPR you have the rights of access, rectification, erasure, restriction, objection and portability, as well as the right to withdraw consent at any time. To exercise these rights: <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a>.</p>
+    <p>You also have the right to lodge a complaint with a supervisory authority — in France, the Commission Nationale de l’Informatique et des Libertés (CNIL), <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>.</p>
+
+    <h2>10. Children</h2>
+    <p>The App is not intended for individuals below the legal age of consent to data processing in their country. We do not knowingly collect data from minors without the required consent.</p>
+
+    <h2>11. Cookies (website)</h2>
+    <p>Our website may use a limited number of cookies for measuring and attributing our marketing campaigns (e.g. conversion cookies). You can refuse them via the consent banner.</p>
+
+    <h2>12. Changes</h2>
+    <p>We may update this Policy. Any change is posted on this page with a new “last updated” date.</p>
+
+    <h2>13. Contact</h2>
+    <p>For any question about your data: <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a><br>
+    Data controller: <span class="ph">[Legal name — full address]</span></p>
+  </div></main>
+</div>
+
+<!-- ================= FRANÇAIS ================= -->
+<div data-lang="fr">
+  <section class="hero"><div class="wrap">
+    <div class="eyebrow">Politique de confidentialité</div>
+    <h1>Vos données, votre contrôle.</h1>
+    <p class="updated">Dernière mise à jour : <span class="ph">[JJ mois AAAA]</span></p>
+  </div></section>
+
+  <main><div class="wrap">
+    <p class="lead">La présente Politique explique comment l’application Yuvo (l’« Application ») traite les informations vous concernant.</p>
+
+    <div class="note">⚠️ Modèle — à compléter avant publication. L’identité du responsable de traitement (nom légal + adresse) est obligatoire au titre du RGPD ; une simple adresse e-mail ne suffit pas.</div>
+
+    <h2>1. Responsable du traitement</h2>
+    <p>Le responsable du traitement est <span class="ph">[Nom légal de l’éditeur]</span>, <span class="ph">[forme juridique]</span>, <span class="ph">[n° SIREN/RCS le cas échéant]</span>, dont le siège / domicile est situé <span class="ph">[adresse complète]</span>.</p>
+    <p>Contact : <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a></p>
+
+    <h2>2. Principe : Yuvo est un lecteur</h2>
+    <p>Yuvo est une application utilitaire qui lit <strong>vos</strong> playlists. Yuvo ne fournit, n’héberge et ne distribue aucun contenu, et n’a aucun moyen d’accéder aux sources que vous configurez. Vous êtes responsable de votre contenu.</p>
+    <p>Yuvo est conçue dans une logique de <strong>minimisation des données</strong> : nous ne collectons que ce qui est nécessaire au service que vous choisissez d’utiliser.</p>
+
+    <h2>3. Données traitées et finalités</h2>
+    <h3>a) Données de compte (le cas échéant)</h3>
+    <p>Si vous créez un compte ou vous connectez via Apple ou Google, nous pouvons traiter votre adresse e-mail, votre statut d’authentification, vos réglages de sécurité, vos identifiants d’abonnement liés et votre consentement marketing optionnel (oui/non). Le consentement marketing est distinct de l’acceptation des CGU et peut être retiré à tout moment.</p>
+    <h3>b) Données stockées dans votre iCloud</h3>
+    <p>Vos préférences et votre progression (playlists, favoris, réglages) peuvent être enregistrées sur votre compte iCloud personnel via CloudKit. Ces données sont accessibles uniquement par vous ; nous n’y avons pas accès. Leur gestion relève de la politique de confidentialité iCloud d’Apple.</p>
+    <h3>c) Mesure d’audience et amélioration</h3>
+    <p>Nous pouvons utiliser un identifiant iCloud haché (non rattaché à votre identité) ainsi que des informations générales d’appareil (type d’appareil, version d’OS, langue) pour analyser l’usage de manière anonyme et améliorer l’Application. Aucune donnée d’identité (e-mail, nom, téléphone) n’est rattachée à cette mesure.</p>
+    <h3>d) Rapports d’incident (optionnel)</h3>
+    <p>Le signalement de bugs est facultatif. Un fichier de journalisation peut contenir des informations techniques sur les flux testés et les erreurs associées, aux seules fins de correction.</p>
+    <h3>e) Publicité (le cas échéant)</h3>
+    <p>Yuvo peut proposer un accès gratuit financé par la publicité lorsque nous l’activons. Les abonnés payants et les utilisateurs disposant d’un accès sans publicité ne voient pas de publicités. Lorsque la publicité est activée :</p>
+    <ul>
+      <li>nous utilisons <strong>Google AdMob</strong> et <strong>Google User Messaging Platform (UMP)</strong> pour demander, enregistrer et appliquer vos choix de consentement lorsque cela est requis ;</li>
+      <li>sur les plateformes Apple, l’autorisation <strong>App Tracking Transparency (ATT)</strong> peut vous être demandée avant tout accès à l’IDFA (identifiant publicitaire). Si vous refusez le suivi, ou si le consentement n’est pas disponible, les publicités peuvent être contextuelles, non personnalisées ou limitées ;</li>
+      <li>Google et ses partenaires peuvent recevoir des données techniques (appareil, app, réseau, localisation approximative, diagnostics, état du consentement, interactions publicitaires, identifiant publicitaire) uniquement lorsque cela est autorisé. Si le consentement requis est refusé ou indisponible, l’accès financé par la publicité est désactivé et l’accès normal rétabli.</li>
+    </ul>
+    <p>Vous pouvez consulter ou modifier votre consentement publicitaire dans les réglages de Yuvo, et l’autorisation ATT dans les réglages iOS/tvOS.</p>
+
+    <h2>4. Bases légales (RGPD)</h2>
+    <ul>
+      <li><strong>Exécution du contrat</strong> (art. 6.1.b) : fourniture de l’Application et des fonctionnalités de compte.</li>
+      <li><strong>Consentement</strong> (art. 6.1.a) : publicité personnalisée, suivi, communications marketing. Retirable à tout moment.</li>
+      <li><strong>Intérêt légitime</strong> (art. 6.1.f) : sécurité, prévention de la fraude, mesure d’audience anonyme et amélioration du service.</li>
+    </ul>
+
+    <h2>5. Destinataires et sous-traitants</h2>
+    <p>Nous ne vendons pas vos données. Elles peuvent être traitées par des prestataires agissant pour notre compte ou des plateformes nécessaires au fonctionnement de l’Application, notamment : Apple (distribution, iCloud/CloudKit, achats), Google (AdMob, UMP, mesure d’audience), <span class="ph">[le cas échéant : prestataire d’analytics / Supabase / hébergeur backend]</span>. Ces tiers appliquent leurs propres politiques de confidentialité.</p>
+
+    <h2>6. Transferts hors Union européenne</h2>
+    <p>Certains prestataires (notamment Apple et Google) peuvent traiter des données en dehors de l’Espace économique européen. Ces transferts sont encadrés par des mécanismes appropriés (clauses contractuelles types ou décisions d’adéquation), conformément au RGPD.</p>
+
+    <h2>7. Durée de conservation</h2>
+    <p>Nous conservons les données de compte tant que votre compte est actif, puis les supprimons ou anonymisons dans un délai raisonnable, sauf obligation légale de conservation. Les rapports d’incident et données techniques sont conservés de manière temporaire, le temps nécessaire à la résolution des problèmes.</p>
+
+    <h2>8. Sécurité</h2>
+    <p>Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables (authentification, contrôle d’accès) pour protéger les données contre tout accès non autorisé, perte ou usage abusif.</p>
+
+    <h2>9. Vos droits</h2>
+    <p>Conformément au RGPD, vous disposez des droits d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité de vos données, ainsi que du droit de retirer votre consentement à tout moment. Pour exercer ces droits : <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a>.</p>
+    <p>Vous avez également le droit d’introduire une réclamation auprès de la Commission Nationale de l’Informatique et des Libertés (CNIL) — <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>.</p>
+
+    <h2>10. Mineurs</h2>
+    <p>L’Application n’est pas destinée aux personnes n’ayant pas l’âge légal de consentir au traitement de leurs données dans leur pays. Nous ne collectons pas sciemment de données relatives à des mineurs sans le consentement requis.</p>
+
+    <h2>11. Cookies (site web)</h2>
+    <p>Notre site web peut utiliser un nombre limité de cookies, à des fins de mesure et d’attribution de nos campagnes marketing (par exemple cookies de conversion). Vous pouvez les refuser via le bandeau de consentement.</p>
+
+    <h2>12. Modifications</h2>
+    <p>Nous pouvons mettre à jour la présente Politique. Toute modification est publiée sur cette page avec une nouvelle date de mise à jour.</p>
+
+    <h2>13. Contact</h2>
+    <p>Pour toute question relative à vos données : <a href="mailto:yuvo@gmail.com">yuvo@gmail.com</a><br>
+    Responsable du traitement : <span class="ph">[Nom légal — adresse complète]</span></p>
+  </div></main>
+</div>
+
+<footer><div class="wrap">© <span id="yr"></span> Yuvo — <span data-lang="en">Privacy Policy</span><span data-lang="fr">Politique de confidentialité</span></div></footer>
+
+<script>
+  function setLang(l){
+    document.documentElement.setAttribute('data-active', l);
+    document.documentElement.setAttribute('lang', l);
+    document.getElementById('btn-en').setAttribute('aria-pressed', l==='en');
+    document.getElementById('btn-fr').setAttribute('aria-pressed', l==='fr');
+    try{ localStorage.setItem('yuvo-lang', l); }catch(e){}
+  }
+  (function(){
+    var saved; try{ saved = localStorage.getItem('yuvo-lang'); }catch(e){}
+    var nav = (navigator.language||'en').slice(0,2).toLowerCase();
+    setLang(saved || (nav==='fr'?'fr':'en'));
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  })();
+</script>
+</body>
+</html>
